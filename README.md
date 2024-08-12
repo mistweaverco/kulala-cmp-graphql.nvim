@@ -20,7 +20,8 @@ Kulala is swahili for "rest" or "relax".
 
 <p></p>
 
-![demo](https://github.com/mistweaverco/kulala-cmp-graphql.nvim/assets/tbd)
+![demo](https://github.com/user-attachments/assets/3d3d3a3a-0272-4405-a7e0-7e9b8f03ea88)
+
 
 <p></p>
 
