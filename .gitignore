@@ -1,0 +1,3 @@
+*.http
+*.rest
+*.graphql-schema.json
