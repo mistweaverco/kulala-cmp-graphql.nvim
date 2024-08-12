@@ -69,7 +69,7 @@ It depends on a GraphQL schema file in your project which should reside next to 
 The schema file should be named `[http-file-name-without-extension].graphql-schema.json` or `graphql-schema.json`.
 
 You can download the schema file using [kulala.nvim][kulala] via the
-[`:lua require("kulala").download_graphql_schema()`](kulala-dl-gql-schema] command.
+[`:lua require("kulala").download_graphql_schema()`][kulala-dl-gql-schema]
 
 [kulala]: https://github.com/mistweaverco/kulala.nvim
 [kulala-dl-gql-schema]: https://kulala.mwco.app/docs/usage/public-methods#download_graphql_schema
