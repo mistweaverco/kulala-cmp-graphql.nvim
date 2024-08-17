@@ -161,6 +161,10 @@ end
 ---@param params cmp.SourceCompletionApiParams
 ---@param callback fun(response: lsp.CompletionResponse|nil)
 function M.complete(self, params, callback)
+  local schema = self:_get_schema()
+  if schema == nil then
+    return callback({})
+  end
   vim.defer_fn(function()
     local bufnr = vim.fn.bufnr("%")
     local node = Utils.get_ts_node_under_cursor()
