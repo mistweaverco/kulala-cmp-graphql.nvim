@@ -14,7 +14,10 @@
 
 A minimal completion source for GraphQL in `.http`/`.rest` files in Neovim using [nvim-cmp][nvim-cmp].
 
-It accompanies [kulala.nvim][kulala], a minimalistic plugin for API development in Neovim.
+It accompanies both [kulala.nvim][kulala] and [rest.nvim][restnvim].
+
+Kulala is a minimalistic plugin for API development in Neovim,
+whereas rest.nvim is a full fledged REST client for Neovim.
 
 Kulala is swahili for "rest" or "relax".
 
@@ -174,7 +177,7 @@ You can download the schema file using [kulala.nvim][kulala] via the
 [`:lua require("kulala").download_graphql_schema()`][kulala-dl-gql-schema]
 
 [kulala]: https://github.com/mistweaverco/kulala.nvim
+[restnvim]: https://github.com/rest-nvim/rest.nvim
 [kulala-dl-gql-schema]: https://kulala.mwco.app/docs/usage/public-methods#download_graphql_schema
 [nvim-cmp]: https://github.com/hrsh7th/nvim-cmp
-
 
